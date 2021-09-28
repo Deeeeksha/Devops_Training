@@ -20,18 +20,13 @@ Ques. How ext4 fs is faster?
 Ans. Ext4 is also said to be slightly faster in sequential reads and writes.When it comes to file checking, EXT4 is quicker because unallocated blocks of data are marked as such and are simply skipped during disk check operations.
 
 
-
-
 Ques. What is swap & swap memory?
-Ans. Swap is a space on a disk that is used when the amount of physical RAM memory is full. When a Linux system runs out of RAM, inactive pages are moved from the RAM to the swap space
-
+Ans. Swap is a space on a disk that is used when the amount of physical RAM memory is full. When a Linux system runs out of RAM, inactive pages are moved from the RAM to the swap space.
 Memory swapping is a computer technology that enables an operating system to provide more memory to a running application or process than is available in physical random access memory (RAM).
-
 Swap space in Linux is used when the amount of physical memory (RAM) is full. If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space. While swap space can help machines with a small amount of RAM, it should not be considered a replacement for more RAM.
 
 Ques. How to mount a file system?
 Ans.  To mount a file system, we use the mount command. We use the mount command with the file system and the mount point. The mount point becomes the root directory for the mounted file system.
-
 
 Ques. ZFS use case.
 
@@ -49,8 +44,7 @@ Ans. A control group (cgroup) is a Linux kernel feature that limits, accounts fo
 
 Ques. Difference between sbin & usr/sbin.
 Ans. sbin:this directory holds commands needed to boot the system, but which are  usually   not executed by normal users.
-
-         usr/sbin:This directory contains program binaries for system administration which are not essential for the boot process, for mounting /usr, or for system.
+     usr/sbin:This directory contains program binaries for system administration which are not essential for the boot process, for mounting /usr, or for system.
 
 
 
