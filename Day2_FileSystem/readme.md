@@ -48,6 +48,7 @@ Ans. netstat -lntp
 
 
 Ques. What is Unix time sharing?
+
 Ans. UNIX is a multi-processing and multi-user time sharing operating system.UNIX provides a great range of programs and services that have made the UNIX system environment popular among users. This environment contains the command interpreter shell, text processing packages, the source code control, a powerful mailing system and many more. The importance of UNIX is its simplicity and consistency.
 
 Ques. What are control groups?
