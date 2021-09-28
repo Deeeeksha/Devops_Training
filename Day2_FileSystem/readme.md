@@ -43,6 +43,7 @@ Ques. ZFS use case.
 Ques. Revisit Linux Directory structure and each directory of it.
 
 Ques. How to check which process is running on which port?
+
 Ans. netstat -lntp
 
 
