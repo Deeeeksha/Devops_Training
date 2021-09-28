@@ -1,4 +1,6 @@
  
+ QUESTIONS-
+ 
  
 - what is GNU project?
 - differennce between unix & linux
