@@ -1,5 +1,9 @@
+
+QUESTION & ANSWERS
+
+
 Ques. What is squashfs file system?
-And.When creating tiny-sized and embedded Linux systems, every byte of the storage device (floppy, flash disk, etc.) is very important, so compression is used everywhere possible. Also, compressed file systems are frequently needed for archiving purposes. For huge public archives, as well as for personal media archives, this is essential.
+Ans.When creating tiny-sized and embedded Linux systems, every byte of the storage device (floppy, flash disk, etc.) is very important, so compression is used everywhere possible. Also, compressed file systems are frequently needed for archiving purposes. For huge public archives, as well as for personal media archives, this is essential.
 SquashFS is distributed as a Linux kernel source patch (which enables SquashFS read support in your kernel), the mksquashfs tool, which creates squashed file systems (in a file or on a block device) and the unsquashfs tool, which extracts multiple files from an existing squashed file system.
 
 Ques. What are /dev/loop and /dev/tty?
