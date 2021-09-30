@@ -1,7 +1,7 @@
 
 
 
-###Ques How many tables are there in iptables?
+### Ques How many tables are there in iptables?
 
 Ans. iptables contains five tables:
     1. raw is used only for configuring packets so that they are exempt from connection tracking.
