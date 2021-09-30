@@ -4,15 +4,15 @@
 ### Ques How many tables are there in iptables?
 
 Ans. iptables contains five tables:
-    1. raw is used only for configuring packets so that they are exempt from connection tracking.
+    1. **Raw* is used only for configuring packets so that they are exempt from connection tracking.
     
-    2. filter is the default table, and is where all the actions typically associated with a firewall take place.
+    2. **Filter** is the default table, and is where all the actions typically associated with a firewall take place.
     
-    3. nat is used for network address translation (e.g. port forwarding).
+    3. **Nat** is used for network address translation (e.g. port forwarding).
     
-    4. mangle is used for specialized packet alterations.
+    4. **Mangle** is used for specialized packet alterations.
     
-    5. security is used for Mandatory Access Control networking rules (e.g. SELinux
+    5. **Security** is used for Mandatory Access Control networking rules (e.g. SELinux
 
 ### Ques. What is prot, opt, in, out, source & destination? 
 
