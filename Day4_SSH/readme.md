@@ -6,27 +6,27 @@ Ans.
 
 2.    Use the adduser command to add a new user account to an EC2 instance (replace new_user with the new account name). The following example creates an associated group, home directory, and an entry in the /etc/passwd file of the instance.
 
-**$ sudo adduser new_user**
+                                **$ sudo adduser new_user**
 
 3.    Change the security context to the new_user account so that folders and files you create have the correct permissions:
 
-**$ sudo su - new_user**
+                                **$ sudo su - new_user**
 
 4.    Create a .ssh directory in the new_user home directory:
 
-**$ mkdir .ssh**
+                                   **$ mkdir .ssh**
 
 5.    Use the chmod command to change the .ssh directory's permissions to 700. Changing the permissions restricts access so that only the new_user can read, write, or open the .ssh directory.
 
-**$ chmod 700 .ssh**
+                                  **$ chmod 700 .ssh**
 
 6.    Use the touch command to create the authorized_keys file in the .ssh directory:
 
-**$ touch .ssh/authorized_keys**
+                          **$ touch .ssh/authorized_keys**
 
 7.    Use the chmod command to change the .ssh/authorized_keys file permissions to 600. Changing the file permissions restricts read or write access to the new_user.
 
-**$ chmod 600 .ssh/authorized_keys**
+                         **$ chmod 600 .ssh/authorized_keys**
 
 
 ### Ques. What are daemon applications?
