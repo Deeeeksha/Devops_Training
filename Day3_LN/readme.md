@@ -4,7 +4,8 @@
 ### Ques How many tables are there in iptables?
 
 Ans. iptables contains five tables:
-    1. **Raw* is used only for configuring packets so that they are exempt from connection tracking.
+
+    1. **Raw** is used only for configuring packets so that they are exempt from connection tracking.
     
     2. **Filter** is the default table, and is where all the actions typically associated with a firewall take place.
     
