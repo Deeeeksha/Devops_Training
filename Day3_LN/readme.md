@@ -17,7 +17,8 @@ Ans. iptables contains five tables:
 
 ### Ques. What is prot, opt, in, out, source & destination? 
 
-Ans. prot:prot is a combination of the following access flags: PROT_NONE or a bitwise-or of the other values in the following list: PROT_NONE The memory cannot be accessed at all. PROT_READ The memory can be read. PROT_WRITE The memory can be modified. PROT_EXEC The memory can be executed.
+Ans. 
+* prot:prot is a combination of the following access flags: PROT_NONE or a bitwise-or of the other values in the following list: PROT_NONE The memory cannot be accessed at all. PROT_READ The memory can be read. PROT_WRITE The memory can be modified. PROT_EXEC The memory can be executed.
 
 * Opt: It means reserved for the installation of add-on application software packages. In this context, “add-on”  means software that is not part of the system; for example, any external or third-party software.
 
