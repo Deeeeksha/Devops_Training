@@ -39,19 +39,33 @@ Ans.
 
 Ans.
     1. Delete Existing Rules
+    
     2. Set Default Chain Policies
+    
     3. Block a Specific ip-address. 
+    
     4. Allow ALL Incoming SSH. 
+    
     5. Allow Incoming SSH only from a Specific Network. 
+    
     6. Allow Incoming HTTP and HTTPS. 
+    
     7. Combine Multiple Rules Together using MultiPorts. 
+    
     8. Allow Outgoing SSH.
-    9.  Allow Outgoing SSH only to a Specific Network
+    
+    9. Allow Outgoing SSH only to a Specific Network
+    
     10. Allow Outgoing HTTPS
-    11.  Load Balance Incoming Web Traffic
+    
+    11. Load Balance Incoming Web Traffic
+    
     12. Allow Ping from Outside to Inside
-    13.  Allow Ping from Inside to Outside
+    
+    13. Allow Ping from Inside to Outside
+    
     14. Allow Loopback Access
+    
     15. Allow Internal Network to External network.
 
 
@@ -63,18 +77,27 @@ Ans.Blocking a domain name involves ordering a domain name lookup service (for m
 ### Ques. How can we persist rules in iptables? 
 
 Ans.Add rules to the iptables according to your requirement.
+
     1. Verify that all the rules are present using the command “iptables -L“. # iptables -L.
+    
     2. Save the iptables. # service iptables save.
+    
     3. Restart the service.
+    
     4. Making service permanently ON using chkconfig.
 
 ### Ques. How can we save rules in iptables?
 
 Ans. Saving iptables firewall rules permanently on Linux
+
     1. Step 1 – Open the terminal. 
-    2. Step 2 – Save IPv4 and IPv6 Linux firewall rules. 
+    
+    2. Step 2 – Save IPv4 and IPv6 Linux firewall rules.
+    
     3. Step 3 – Restore IPv4 and IPv6 Linux firewall rules.
+    
     4. Step 4 – Installing iptables-persistent package for Debian or Ubuntu Linux.
+    
     5. Step 5 – Install iptables-services package for RHEL/CentOS.
 
 ### Ques. Difference between ufw & iptables?
