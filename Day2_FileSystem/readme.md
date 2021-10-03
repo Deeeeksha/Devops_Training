@@ -58,7 +58,8 @@ Ans. A control group (cgroup) is a Linux kernel feature that limits, accounts fo
 
 ### Ques. Difference between sbin & usr/sbin.
 
-Ans. * sbin: This directory holds commands needed to boot the system, but which are  usually   not executed by normal users.
+Ans. 
+     * sbin: This directory holds commands needed to boot the system, but which are  usually   not executed by normal users.
 
      * usr/sbin: This directory contains program binaries for system administration which are not essential for the boot process, for mounting /usr, or for system.
 
