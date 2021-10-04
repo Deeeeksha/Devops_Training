@@ -1,0 +1,44 @@
+#!/bin/bash
+#To print all the elements of array
+
+declare -a array=("My" "Name" "is" "Deeksha" "Tripathi")
+
+echo "${array[@]}"
+
+#counting no. of elements
+
+echo ${#array[@]}
+
+#Array loop
+
+<<COMMENTS 
+for((i=0;i<$ {length};i++))
+do
+	echo $i ${array[$i]}
+done
+COMMENTS
+
+#adding element to array
+
+array[5]="forever"
+echo "${array[@]}"
+
+#another way to add element 
+
+array+=("." "I" "am" "22" "Years" "old")
+echo "${array[@]}"
+
+#updating array element 
+
+array[3]="Shashank"
+echo "${array[@]}"
+
+#delelting an array element
+
+unset array[6]
+echo "${array[@]}"
+echo ${!array[@]}
+
+#deleting an entire array
+
+unset array

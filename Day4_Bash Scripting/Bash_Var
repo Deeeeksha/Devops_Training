@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Bash Variables
+
+USER_NAME=DEEKSHA
+
+echo Hii!! $USER_NAME is any user currently working on the directory $PWD with Bash Shell Version $BASH_VERSION.

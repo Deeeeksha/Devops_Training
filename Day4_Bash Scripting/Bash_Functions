@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#Example 1
+
+Study(){
+	echo 'Hello World!'
+}
+Study
+
+#Example 2
+<< COMMENTS
+function Study{
+	echo 'Learn Linux!'
+}
+Study
+COMMENTS
+
+# Example 3
+
+function_arguments()
+{
+	echo $1
+	echo $2
+	echo $3
+	echo $4
+	echo $5
+}
+function_arguments "Good" "MOrning" "Everyone"

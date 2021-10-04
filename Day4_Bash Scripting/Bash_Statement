@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Do you know Java Language."
+read -p "Yes/No?:" Answer
+case $Answer in
+	Yes|yes|YES|Y|y)
+		echo "That's Very Nice."
+		echo
+		;;
+	No|no|N|n|NO)
+		echo "It is easy to learn Java. Start learning fron javatpoint..."
+		;;
+esac
+
