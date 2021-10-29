@@ -40,7 +40,7 @@ Method4:  Specify in the Ansible Command line.
 ### 10 - How can you remove or uninstall an application completely on the host machine ?
 Ans. This can be done as:    
               
-              $ sudo apt-get remove package-name
+               $ sudo apt-get remove package-name
 
                $ sudo apt-get purge package-name
  
