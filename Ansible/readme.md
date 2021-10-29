@@ -29,16 +29,21 @@ Ans. Plugins are pieces of code that augment Ansible's core functionality. Ansib
 Ans.Ansible connects to the localhost as:
 
 Method1:  Specify Localhost in your hosts directive of your playbook.
-Method2:  Using local_action clause in the ansible playbook
-Method3:  Add an entry in your Inventory
-Method4:  Specify in the Ansible Command line
+
+Method2:  Using local_action clause in the ansible playbook.
+
+Method3:  Add an entry in your Inventory.
+
+Method4:  Specify in the Ansible Command line.
 
 
 ### 10 - How can you remove or uninstall an application completely on the host machine ?
 Ans. This can be done as:    
-$ sudo apt-get remove package-name
-$ sudo apt-get purge package-name
-$ sudo apt-get autoremove :-to remove any dependencies such as the applications     and libraries used by the software
+               $ sudo apt-get remove package-name
+
+               $ sudo apt-get purge package-name
+ 
+               $ sudo apt-get autoremove: to remove any dependencies such as the applications and libraries used by the software
 
 
 ### 11- If the host machine does not have python then how will you install python on it using ansible?
